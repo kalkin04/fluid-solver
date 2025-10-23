@@ -3,10 +3,9 @@ import matplotlib.colors as mcolors
 import numpy as np
 import subprocess
 from src.params import *
-fdf6e3
 cmap = plt.cm.viridis
 norm = mcolors.Normalize(vmin=-vmag_color_cap / 3, vmax=vmag_color_cap)
-bg_color = '#'
+bg_color = '#fdf6e3'
 
 def render(pos, v, i, title, path):
     v_mag = np.sqrt(v[:, 0] * v[:, 0] + v[:, 1] * v[:, 1])
