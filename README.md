@@ -1,5 +1,13 @@
 ### Usage guide
 
+Setup:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install numpy scipy matplotlib
+```
+
 Run any of the following to create a fluid simulation video:
 
 ```
