@@ -8,7 +8,7 @@ source .venv/bin/activate
 python3 -m pip install numpy scipy matplotlib
 ```
 
-Run any of the following to create a fluid simulation video:
+Run any of the following to create a fluid simulation video (requires ffmpeg):
 
 ```
 python3 methods/pic.py
@@ -19,7 +19,7 @@ python3 methods/blend.py
 
 Blend is a blend between FLIP and PIC
 
-To combine the videos and have them play side by side, run `bash scripts/combine_videos.sh`
+To combine the videos and have them play side by side, run `bash scripts/combine_videos.sh` (requires ffmpeg)
 - Note: I don't like how PIC looks so it didnt make the cut here
 
 ### TODO
